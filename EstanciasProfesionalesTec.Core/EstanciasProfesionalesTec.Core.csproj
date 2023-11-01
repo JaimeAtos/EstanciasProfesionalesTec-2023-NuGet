@@ -4,6 +4,14 @@
         <TargetFramework>net7.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <Title>EntityNuget</Title>
+        <Description>Nuget generico para la simplificacion de la creacion de entidades</Description>
+        <RepositoryUrl>https://github.com/JaimeAtos/EstanciasProfesionalesTec-2023-NuGet</RepositoryUrl>
+        <Authors>Brandon Rivera Zuñiga, Santiago León Salinas, Alejandro Daniel Dennis Hernández, Ana Fernanda Chacón Lomelí, Juan Carlos Martínez Zacarías, Javier Treviño De la Cruz, Maximiliano Soberano Ramón, Jose Avir Gariel Guerrero</Authors>
+        <Version>1.1.0</Version>
     </PropertyGroup>
+	<ItemGroup>
+	    <PackageReference Include="MediatR" Version="12.1.1" />
+	</ItemGroup>
 
 </Project>
